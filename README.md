@@ -33,7 +33,7 @@ The system uses artificial intelligence to analyze the lecture material and gene
 
 ### Rules
 
-- Ask questions related to Chapter 11 only
+- Ask questions related to Chapter  only
 - Use this tool as a **learning aid**, not a shortcut
 - Verify important concepts with lecture notes
 
