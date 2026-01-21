@@ -45,3 +45,14 @@ By using this tool, students should gain:
 - Better conceptual understanding
 - Faster revision
 - Increased confidence with Java topics
+
+- flowchart LR
+    A[Student Browser] -->|Question| B[HTML/JS Chat UI]
+    B -->|GET /answer?q=...&url=...| C[Backend API]
+    C --> D[Slide Content Loader]
+    C --> E[LLM / AI Engine]
+    D --> E
+    E -->|Streaming Text| C
+    C -->|Chunked Response| B
+    B -->|Rendered Markdown| A
+
