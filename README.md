@@ -1,4 +1,4 @@
-## AI Study Assistant – Chapter 11 Java
+## AI Study Assistant – IS247 Java
 
 ### Project Description
 
