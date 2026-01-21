@@ -1,0 +1,72 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Build / temp files
+# =========================
+dist/
+build/
+coverage/
+.tmp/
+temp/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Ollama / AI runtime
+# =========================
+ollama-cache/
+models/
+*.gguf
+
+# =========================
+# Runtime artifacts
+# =========================
+*.pid
+*.seed
+
+# =========================
+# Local testing files
+# =========================
+test-output/
+debug/
+
+# =========================
+# Optional: lock files
+# (keep ONE if you want reproducible builds)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
